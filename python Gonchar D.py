@@ -17,10 +17,10 @@ font2 = pygame.font.Font(None, 80)
 
 im = pygame.image.load('pygamgr/found.png')
 imNLO = pygame.image.load('pygamgr/NLOgg.png')
-pygame.mixer.music.load('mypython/mmp.mp3')
+pygame.mixer.music.load('pygamgr/mmp.mp3')
 pygame.mixer.music.set_volume(0.1)
 pygame.mixer.music.play(-1)
-varFall = pygame.mixer.Sound('mypython/crash.mp3')
+varFall = pygame.mixer.Sound('pygamgr/crash.mp3')
 
 py, sy, ay = HEIGHT // 2, 0, 0
 player = pygame.Rect(WIDTH // 3, py, 90, 37)
